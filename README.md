@@ -8,7 +8,7 @@ Albert Jo ([namhyun@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://www.youtube.com/watch?v=3u0DjMPyVaE)
+See [Demo] (https://www.youtube.com/watch?v=3u0DjMPyVaE)
 
 ## Screenshots
 
