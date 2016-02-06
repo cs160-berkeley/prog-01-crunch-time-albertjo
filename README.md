@@ -4,7 +4,7 @@ Briefly describe your app here.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Albert Jo ([namhyun@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
@@ -12,7 +12,10 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/homepage.png" height="400" alt="Screenshot"/>
+<img src="screenshots/calculate_calories.png" height="400" alt="Screenshot"/>
+<img src="screenshots/multiple_activites_calculate_calories.png" height="400" alt="Screenshot"/>
+<img src="screenshots/equivalent_workout_result.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
