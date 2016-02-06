@@ -1,0 +1,261 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calories burned"
+        android:id="@+id/btnAddItem"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="8dp"
+        android:layout_y="68dp"
+        android:onClick="calculateTotalCaloriesBurned"/>
+
+    <EditText
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/weightText"
+        android:layout_x="156dp"
+        android:layout_y="69dp"
+        android:hint="enter weight" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_x="0dp"
+        android:layout_y="127dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pushupRadioButton"
+            android:layout_x="4dp"
+            android:layout_y="130dp"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="push ups"
+            android:id="@+id/textView"
+            android:layout_x="38dp"
+            android:layout_y="136dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/pushupRadioButton" />
+
+        <EditText
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:text="0"
+            android:id="@+id/pushupAmt"
+            android:layout_x="116dp"
+            android:layout_y="120dp"
+            android:layout_alignBottom="@+id/pushupsRepsMinsToggleButton"
+            android:layout_toStartOf="@+id/pushupsRepsMinsToggleButton" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/pushupsRepsMinsToggleButton"
+            android:layout_x="220dp"
+            android:layout_y="110dp"
+
+            android:textOff="reps"
+            android:textOn="minutes"
+            android:checked="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_x="1dp"
+        android:layout_y="184dp" >
+
+        <EditText
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:text="0"
+            android:id="@+id/situpsEditText"
+            android:layout_x="116dp"
+            android:layout_y="120dp"
+            android:layout_alignBottom="@+id/situpsRadioButton"
+            android:layout_toStartOf="@+id/situpsToggleButton" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/situpsRadioButton"
+            android:layout_x="4dp"
+            android:layout_y="130dp"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="sit ups"
+            android:id="@+id/textView2"
+            android:layout_x="38dp"
+            android:layout_y="136dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/situpsRadioButton" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/situpsToggleButton"
+            android:layout_x="220dp"
+            android:layout_y="110dp"
+            android:textOff="reps"
+            android:textOn="minutes"
+            android:checked="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_x="2dp"
+        android:layout_y="239dp" >
+
+        <EditText
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:text="0"
+            android:id="@+id/editText2"
+            android:layout_x="116dp"
+            android:layout_y="120dp"
+            android:layout_alignBottom="@+id/radioButton2"
+            android:layout_toStartOf="@+id/toggleButton" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_x="4dp"
+            android:layout_y="130dp"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Jumping Jacks"
+            android:id="@+id/textView3"
+            android:layout_x="38dp"
+            android:layout_y="136dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/radioButton2" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton"
+            android:layout_x="220dp"
+            android:layout_y="110dp"
+            android:textOff="reps"
+            android:textOn="minutes"
+            android:checked="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_x="1dp"
+        android:layout_y="295dp" >
+
+        <EditText
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:text="0"
+            android:id="@+id/editText3"
+            android:layout_x="116dp"
+            android:layout_y="120dp"
+            android:layout_alignBottom="@+id/radioButton3"
+            android:layout_toStartOf="@+id/toggleButton2" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_x="4dp"
+            android:layout_y="130dp"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Jogging"
+            android:id="@+id/textView4"
+            android:layout_x="38dp"
+            android:layout_y="136dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/radioButton3" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton2"
+            android:layout_x="220dp"
+            android:layout_y="110dp"
+            android:textOff="steps"
+            android:textOn="minutes"
+            android:checked="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_x="0dp"
+        android:layout_y="351dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get equivalent workout"
+            android:id="@+id/button"
+            android:layout_x="108dp"
+            android:layout_y="429dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="getEquivalentWorkout"/>
+    </RelativeLayout>
+
+
+</AbsoluteLayout>
