@@ -1,6 +1,6 @@
 #PROG 01: Crunch Time
 
-Briefly describe your app here.
+Calculate how many calories you burned from your workout! Also, bored of your workout routine? Find alternative workouts that burns the same amount of calories!
 
 ## Authors
 
@@ -8,7 +8,7 @@ Albert Jo ([namhyun@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [your demo video title here] (https://www.youtube.com/watch?v=3u0DjMPyVaE)
 
 ## Screenshots
 
